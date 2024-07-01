@@ -1,0 +1,11 @@
+.contact {
+    width: 1400px;
+}
+
+.contact-form form{
+    width: 500px;
+}
+
+#message {
+    height: 200px !important;
+}
