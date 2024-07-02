@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { icustomer } from '../iproducts';
+import { customer } from '../products';
 
 @Component({
   selector: 'app-customers',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './customers.component.css'
 })
 export class CustomersComponent {
-
+  customers:icustomer[] = customer;
 }
