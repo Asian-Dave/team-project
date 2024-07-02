@@ -1,5 +1,6 @@
 .contact {
     width: 1400px;
+   
 }
 
 .contact-form form{
@@ -8,4 +9,8 @@
 
 #message {
     height: 200px !important;
+}
+
+input, textarea {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1) !important;
 }
