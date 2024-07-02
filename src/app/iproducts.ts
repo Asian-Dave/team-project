@@ -9,5 +9,4 @@ export interface icustomer{
   text:string,
   name:string,
   img:string
-  stars:number
 }
