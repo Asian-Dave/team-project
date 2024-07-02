@@ -1,9 +1,8 @@
 .hero-container {
   position: relative;
   text-align: center;
-  color: #ac5d18;
+  color: #ECF39E;
   height: 100vh;
-  margin-left: 4rem;
 }
 
 .hero-container img {
@@ -23,21 +22,64 @@
 
 .hero-text {
   position: absolute;
-  top: 50%;
+  bottom: 10%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 100%;
+
+
 }
 
 .hero-text h1 {
   font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  animation: slideInFromSides 2s ease-out forwards;
 }
 
 .hero-text h2 {
+  opacity: 0;
   font-size: 4rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  animation: slideInFromSidesReversed 2s ease-out forwards 2s;
 }
 
 .hero-text p {
   font-size: 1.2rem;
   margin-top: 1rem;
+  animation: slideInFromBottom 2s ease-out;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes slideInFromSides {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFromSidesReversed {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
