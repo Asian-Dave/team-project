@@ -11,21 +11,24 @@ const routes: Routes = [
   {
     path: '',
     component: HomepageComponent,
+    pathMatch:'full'
+    
   },
   {
     path: 'about',
     component: AboutComponent,
+
   },
   {
     path: 'portfolio',
     component: PortfolioComponent,
   },
   {
-    path: 'newletter',
+    path: 'newsletter',
     component: NewsletterComponent,
   },
   {
-    path: 'customer',
+    path: 'customers',
     component: CustomersComponent,
   },
   {
