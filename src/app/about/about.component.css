@@ -5,3 +5,15 @@
 h4 {
   text-align: center;
 }
+
+.ending {
+  text-align: center;
+}
+
+.aboutText {
+  margin-inline: 30px;
+}
+
+.singularPart {
+  margin-block: 40px;
+}
