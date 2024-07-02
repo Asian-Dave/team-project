@@ -1,1 +1,12 @@
-<p>portfolio works!</p>
+<div class="row row-cols-lg-3 row-cols-sm-2">
+  <div *ngFor="let item of itmes; index as iproducts">
+    <div class="card border-white my-2" style="max-width: 20rem">
+      <img
+        src="images/{{ item.img }}"
+        class="card-img-top"
+        alt="{{ item.name }}"
+      />
+      <h4 class="card-title">{{ item.name }}</h4>
+    </div>
+  </div>
+</div>
