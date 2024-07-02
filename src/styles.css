@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+.navbar {
+  margin-left: 4rem;
+  position: top;
+  background-color: transparent;
+  transition: background-color 1s ease;
+}
+.navbar.scrolled {
+  background-color: #132a13;
+}
+
+#mediabar {
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 65px;
+  background-color: #132a13;
+  padding-top: 30px;
+}
+#mediabar a {
+  color: #ddd;
+  display: block;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.baricon:hover {
+  fill: #ecf39e;
+}
