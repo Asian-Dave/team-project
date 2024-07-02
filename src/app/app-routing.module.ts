@@ -24,10 +24,6 @@ const routes: Routes = [
     component: PortfolioComponent,
   },
   {
-    path: 'newsletter',
-    component: NewsletterComponent,
-  },
-  {
     path: 'customers',
     component: CustomersComponent,
   },
