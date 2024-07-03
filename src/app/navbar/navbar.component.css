@@ -1,7 +1,15 @@
-.text{
-    color: #90A955;
+.text {
+  color: var(--green-lightest);
 }
 
-.text:hover{
-    color: #ECF39E;
+.text:hover {
+  color: var(--cream);
+}
+
+.icon {
+  color: var(--green-lightest);
+}
+
+.icon:hover {
+  color: var(--cream);
 }
