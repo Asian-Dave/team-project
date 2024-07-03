@@ -99,14 +99,14 @@ export let customer = [
     title: 'Highly Recommend!',
     text: 'I highly recommend Oliver Reed for anyone in need of stunning wildlife photography. His work is not only visually stunning but also deeply moving. Each photograph tells a story and evokes a sense of wonder and appreciation for nature. Oliver is a true artist and a professional in every sense of the word. His commitment to excellence is evident in every aspect of his work.',
     name: 'Emily Smith',
-    img: 'https://images.unsplash.com/photo-1502767089025-6572583495aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    img: 'https://cdn.pixabay.com/photo/2021/12/26/00/51/girl-6894041_1280.jpg',
   },
   {
     date: 'May 18, 2023',
     title: 'Fantastic Experience',
     text: "Working with Oliver Reed was a fantastic experience! His enthusiasm for wildlife and photography is contagious. He made the entire process enjoyable and stress-free. The photographs he captured were absolutely beautiful and exceeded all our expectations. Oliver is incredibly talented and a joy to work with. We can't wait to collaborate with him again!",
     name: 'David Brown',
-    img: 'https://images.unsplash.com/photo-1544725176-7c40e5aafab2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    img: 'https://cdn.pixabay.com/photo/2015/07/20/12/53/gehlert-852762_1280.jpg',
   },
   {
     date: 'Sep 8, 2022',
