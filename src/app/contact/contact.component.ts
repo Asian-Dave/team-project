@@ -22,7 +22,7 @@ export class ContactComponent {
   constructor(private http: HttpClient) {}
   onSubmit() {
     if (this.contactForm.valid) {
-      console.warn(this.contactForm.value);
+      this.contactForm.reset();
 
       this.http
         .post('https://formspree.io/f/mqazkprp', this.contactForm.value)
