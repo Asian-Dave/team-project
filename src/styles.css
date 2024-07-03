@@ -51,21 +51,29 @@ body {
   padding-top: 3rem;
 }
 
-
-.heading {
+.heading,
+.page-heading {
   text-align: center;
-  margin: 5rem 0;
   position: relative;
 }
 
-.heading span {
+.heading {
+  margin: 5rem 0;
+}
+
+.page-heading {
+  margin: 7rem 0;
+}
+
+.heading span,
+.page-heading span {
   background-color: white;
 }
 
-.heading:before{
+.heading:before,
+.page-heading:before{
   content:" ";
   display: block;
-  height: 1px;
   width: 100%;
   position: absolute;
   top: 50%;
@@ -74,10 +82,10 @@ body {
   z-index: -2;
 }
 
-.heading:after{
+.heading:after, 
+.page-heading:after{
   content:" ";
   display: block;
-  height: 1px;
   width: 30%;
   position: absolute;
   top: 50%;
@@ -86,22 +94,12 @@ body {
   z-index: -2;
 }
 
-
-@media (max-width: 500px) {
-  .heading:before{
-    width: 50px;
-  }
-  .heading:after{
-    width: 50px;
-  }
+.heading:after,
+.heading:before {
+  height: 1px;
 }
 
-/* .heading:before,
-.heading:after {
-  display: inline-block;
-  content: "";
-  border-top: .1rem solid black;
-  width: 4rem;
-  margin: 0 1rem;
-  transform: translateY(-1rem);
-} */
+.page-heading:after,
+.page-heading:before{
+  height: 2px;
+}
