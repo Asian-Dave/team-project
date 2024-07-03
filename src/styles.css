@@ -2,6 +2,7 @@
   /* Color palette */
   --green-darkest: #132a13;
   --green-dark: #31572c;
+  --green-medium: #264322;
   --green-light: #4f772d;
   --green-lightest: #90a955;
   --cream: #ecf39e;
@@ -26,7 +27,7 @@
   left: 0;
   top: 0;
   width: 65px;
-  background-color: var(--green-darkest);
+  background-color: var(--green-medium);
   padding-top: 30px;
 }
 #mediabar a {
