@@ -13,10 +13,6 @@
 
 
 
-
-.baricon:hover {
-  fill: var(--cream);
-}
 body {
   margin-left: 4rem;
   overflow-x: hidden;
@@ -24,6 +20,9 @@ body {
 .border-padding {
   padding: 1rem;
   padding-top: 3rem;
+}
+.extra-top-padding{
+  margin-top: 3rem;
 }
 
 .heading,
