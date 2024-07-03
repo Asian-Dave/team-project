@@ -17,3 +17,7 @@ h4 {
 .singularPart {
   margin-block: 40px;
 }
+
+.shadowImg {
+  box-shadow: var(--shadow-box);
+}

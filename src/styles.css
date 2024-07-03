@@ -1,3 +1,15 @@
+:root {
+  /* Color palette */
+  --green-darkest: #132a13;
+  --green-dark: #31572c;
+  --green-light: #4f772d;
+  --green-lightest: #90a955;
+  --cream: #ecf39e;
+
+  /* shadow box */
+  --shadow-box: 15px 15px var(--green-light);
+}
+
 .navbar {
   margin-left: 4rem;
   position: top;
@@ -5,7 +17,7 @@
   transition: background-color 1s ease;
 }
 .navbar.scrolled {
-  background-color: #132a13;
+  background-color: var(--green-darkest);
 }
 
 #mediabar {
@@ -14,7 +26,7 @@
   left: 0;
   top: 0;
   width: 65px;
-  background-color: #132a13;
+  background-color: var(--green-darkest);
   padding-top: 30px;
 }
 #mediabar a {
@@ -25,13 +37,13 @@
 }
 
 .baricon:hover {
-  fill: #ecf39e;
+  fill: var(--cream);
 }
-body{
-    margin-left: 4rem;
-    overflow-x: hidden;    
+body {
+  margin-left: 4rem;
+  overflow-x: hidden;
 }
-.border-padding{
-    padding: 1rem;
-    padding-top: 3rem;
-  }
+.border-padding {
+  padding: 1rem;
+  padding-top: 3rem;
+}
