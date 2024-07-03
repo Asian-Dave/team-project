@@ -1,7 +1,7 @@
-import { NgModule } from '@angular/core';
+import { NgModule,CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {ReactiveFormsModule} from '@angular/forms';
-
+import { register } from 'swiper/element/bundle';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
@@ -19,6 +19,7 @@ import { Extra1Component } from './extra1/extra1.component';
 import { Extra2Component } from './extra2/extra2.component';
 import { Extra3Component } from './extra3/extra3.component';
 import { provideHttpClient, withFetch } from '@angular/common/http';
+register();
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { provideHttpClient, withFetch } from '@angular/common/http';
     ReactiveFormsModule
   ],
   providers: [provideHttpClient(withFetch())],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }
