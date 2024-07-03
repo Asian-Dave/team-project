@@ -13,3 +13,13 @@
 .icon:hover {
   color: var(--cream);
 }
+.navbar {
+  margin-left: 4rem;
+  position: top;
+  background-color: transparent;
+  transition: background-color 1s ease;
+}
+.navbar.scrolled {
+  background-color: var(--green-darkest);
+}
+
