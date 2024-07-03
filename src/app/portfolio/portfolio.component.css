@@ -8,7 +8,7 @@
   border-radius: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   position: relative;
   z-index: 1;
@@ -16,7 +16,7 @@
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .card-title {
@@ -30,4 +30,20 @@
   object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+}
+
+.portfolioDesc {
+  background-color: rgba(144, 169, 85, 0.5);
+  margin-top: 10vh;
+  padding-block: 15vh;
+}
+
+.porText {
+  margin-left: 10vh;
+  margin-right: 7vh;
+  text-align: center;
+}
+
+.porPara {
+  padding-top: 3vh;
 }

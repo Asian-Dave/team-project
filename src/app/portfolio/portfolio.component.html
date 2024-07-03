@@ -1,7 +1,36 @@
+<div class="portfolioDesc">
+  <div class="porText">
+    <h1>Portfolio</h1>
+
+    <p class="porPara">
+      Welcome to my portfolio, a curated collection of my most cherished
+      wildlife photographs. Each image you see here is a product of countless
+      hours spent in the wild, capturing the essence of nature in its purest
+      form. From the majestic sweep of an eagle's wings to the delicate steps of
+      a fawn, every photograph tells a unique story of the untamed world.
+    </p>
+    <p class="porPara">
+      My work is driven by a deep passion for wildlife and a commitment to
+      conservation. Through my lens, I aim to share the beauty, wonder, and
+      fragility of our natural heritage. It is my hope that these images not
+      only inspire awe but also foster a greater appreciation and understanding
+      of the incredible diversity of life that surrounds us.
+    </p>
+    <p class="porPara">
+      Feel free to explore and immerse yourself in these moments frozen in time.
+      Each photograph is a testament to the extraordinary experiences and
+      encounters I've had on my journey as a wildlife photographer. Thank you
+      for visiting, and I hope you find as much joy in these images as I did in
+      capturing them.
+    </p>
+  </div>
+</div>
 <div class="border-padding row row-cols-lg-3 row-cols-sm-2">
   <div *ngFor="let item of itmes; index as iproducts">
-    <div class="card border-white my-2" style="max-width: 20rem">
+    <div class="card border-white my-2" style="max-width: 25rem">
       <img
+        width="100%"
+        height="100%"
         src="images/{{ item.img }}"
         class="card-img-top"
         alt="{{ item.name }}"
