@@ -1,4 +1,9 @@
 .award {
     height: 100px;
     width: 300px;
+   
+}
+
+.award-container {
+    border: none;
 }
