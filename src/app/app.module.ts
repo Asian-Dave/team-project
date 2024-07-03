@@ -18,6 +18,7 @@ import { CustomersComponent } from './customers/customers.component';
 import { Extra1Component } from './extra1/extra1.component';
 import { Extra2Component } from './extra2/extra2.component';
 import { Extra3Component } from './extra3/extra3.component';
+import { provideHttpClient, withFetch } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,7 @@ import { Extra3Component } from './extra3/extra3.component';
     AppRoutingModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [provideHttpClient(withFetch())],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
