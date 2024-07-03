@@ -1,16 +1,11 @@
-.container {
-    background-color: #132A13;
+.bgcolorFooter {
+    background-color: var(--green-darkest);
 
     a {
-       color: #ECF39E;  
+       color: var(--cream);  
     }
 }
 
 p, b {
-    color: #ECF39E;;
+    color: var(--cream);
 }
-
-
-
-/* color: #90A955;
-color: #ECF39E; */
