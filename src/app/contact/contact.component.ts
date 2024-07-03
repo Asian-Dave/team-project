@@ -22,11 +22,10 @@ export class ContactComponent {
   constructor(private http: HttpClient) {}
   onSubmit() {
     if (this.contactForm.valid) {
-      this.contactForm.reset();
-
       this.http
         .post('https://formspree.io/f/mqazkprp', this.contactForm.value)
         .subscribe((response) => (this.msg = 'Thanks for your message!'));
     }
+    this.contactForm.reset();
   }
 }
