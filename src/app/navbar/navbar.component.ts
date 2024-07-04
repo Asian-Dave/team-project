@@ -19,11 +19,9 @@ export class NavbarComponent implements OnInit, AfterViewInit {
       if (event instanceof NavigationEnd) {
         this.isHomePage = event.url === '/' || event.urlAfterRedirects === '/';
         if (this.isHomePage) {
-          // Check the current scroll position and set isScrolled accordingly
           const offset = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
           this.isScrolled = offset > 57;
         } else {
-          // Ensure the navbar has the scrolled color on non-homepages
           this.isScrolled = true;
         }
       }
