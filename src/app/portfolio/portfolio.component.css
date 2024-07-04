@@ -40,8 +40,7 @@
 }
 
 .porText {
-  margin-left: 10vh;
-  margin-right: 7vh;
+  margin-inline: 10vh;
   text-align: center;
 }
 
