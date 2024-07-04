@@ -34,8 +34,9 @@
 
 .portfolioDesc {
   background-color: rgba(144, 169, 85, 0.5);
-  margin-top: 10vh;
-  padding-block: 15vh;
+  margin-top: 5vh;
+  padding-block: 5vh;
+  padding-inline: 10vh;
 }
 
 .porText {
