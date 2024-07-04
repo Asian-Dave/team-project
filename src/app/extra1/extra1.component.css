@@ -30,4 +30,6 @@
   .mySwiper2 .swiper-slide-thumb-active {
     opacity: 1;
   }
- 
+ .box-swiper-size{
+  margin: 4vh;
+ }
