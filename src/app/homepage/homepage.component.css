@@ -1,7 +1,6 @@
 .hero-container {
   position: relative;
   text-align: center;
-  color: var(--cream);
   height: 100vh;
 }
 
@@ -22,6 +21,7 @@
 }
 
 .hero-text {
+  color: var(--cream);
   position: absolute;
   bottom: 10%;
   top: auto;
