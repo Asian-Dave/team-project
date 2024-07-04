@@ -47,3 +47,13 @@
 .porPara {
   padding-top: 3vh;
 }
+
+@media (width <= 768px){
+  .portfolioDesc {
+    padding-block: 2vh;
+    padding-inline: 3vh;
+  }
+  .porText {
+    margin-inline: 3vh;
+  }
+}
