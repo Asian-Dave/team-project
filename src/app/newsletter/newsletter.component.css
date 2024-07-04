@@ -7,8 +7,6 @@
   text-align: center;
   color: #ECF39E;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  margin: 2rem auto;
-  max-width: 600px;
   position: relative;
 }
 
@@ -24,9 +22,8 @@
 }
 
 .newsletter-form {
-  display: flex;
-  flex-direction: column;
- 	align-items: center;
+  /* display: flex;
+ 	align-items: center; */
 }
 
 .span {
@@ -63,3 +60,10 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #132A13;
 }
+
+.newsText{
+  padding-inline: 5vh;
+  padding-block: 2vh;
+}
+
+

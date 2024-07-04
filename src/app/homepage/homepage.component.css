@@ -52,7 +52,35 @@
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
+.newsletter-container {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--green-lightest);
+}
+
+a:hover {
+  color: var(--green-medium);
+}
+
+.more-customers {
+  background-color: rgba(144, 169, 85, 0.5);
+  margin-top: 5vh;
+  padding-block: 2vh;
+  padding-inline: 10vh;
+}
+
 /* Media Queries for Responsiveness */
+
+@media (width <= 768px){
+  .more-customers {
+    padding-block: 2vh;
+    padding-inline: 3vh;
+  }
+}
 @media (max-width: 1200px) {
   .hero-text h1 {
     font-size: 2.5rem;
