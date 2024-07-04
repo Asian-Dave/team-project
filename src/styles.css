@@ -11,8 +11,6 @@
   --shadow-box: 30px 30px var(--green-light);
 }
 
-
-
 body {
   margin-left: 4rem;
   overflow-x: hidden;
@@ -21,7 +19,7 @@ body {
   padding: 1rem;
   padding-top: 3rem;
 }
-.extra-top-padding{
+.extra-top-padding {
   margin-top: 3rem;
 }
 
@@ -36,7 +34,8 @@ body {
 }
 
 .page-heading {
-  margin: 7rem 0;
+  margin-top: 9rem;
+  margin-bottom: 4rem;
 }
 
 .heading span,
@@ -45,8 +44,8 @@ body {
 }
 
 .heading:before,
-.page-heading:before{
-  content:" ";
+.page-heading:before {
+  content: " ";
   display: block;
   width: 100%;
   position: absolute;
@@ -56,9 +55,9 @@ body {
   z-index: -2;
 }
 
-.heading:after, 
-.page-heading:after{
-  content:" ";
+.heading:after,
+.page-heading:after {
+  content: " ";
   display: block;
   width: 30%;
   position: absolute;
@@ -74,6 +73,6 @@ body {
 }
 
 .page-heading:after,
-.page-heading:before{
+.page-heading:before {
   height: 2px;
 }
