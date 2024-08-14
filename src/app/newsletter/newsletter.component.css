@@ -1,0 +1,69 @@
+.newsletter-container {
+  background-image: url("../../../public/images/bird-newsleter.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  color: #ECF39E;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.newsletter-container h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.newsletter-container p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.newsletter-form {
+  /* display: flex;
+ 	align-items: center; */
+}
+
+.span {
+  color: white;
+  opacity: 0;
+}
+
+.newsletter-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ECF39E;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.newsletter-form button {
+  background-color: #ECF39E;
+  color: #282828;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  background-color: #c3d472;
+}
+
+#newsletterSub{
+  font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #132A13;
+}
+
+.newsText{
+  padding-inline: 5vh;
+  padding-block: 2vh;
+}
+
+

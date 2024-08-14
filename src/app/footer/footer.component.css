@@ -1,0 +1,11 @@
+.bgcolorFooter {
+    background-color: var(--green-darkest);
+
+    a {
+       color: var(--cream);  
+    }
+}
+
+p, b {
+    color: var(--cream);
+}

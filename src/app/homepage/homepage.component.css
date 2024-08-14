@@ -1,0 +1,157 @@
+.hero-container {
+  position: relative;
+  text-align: center;
+  height: 100vh;
+}
+
+.hero-container img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero-text {
+  color: var(--cream);
+  position: absolute;
+  bottom: 10%;
+  top: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 90%;
+  padding: 0 5%;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  animation: slideInFromSides 2s ease-out forwards;
+}
+
+.hero-text h2 {
+  opacity: 0;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  animation: slideInFromSidesReversed 2s ease-out forwards 2s;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  animation: slideInFromBottom 2s ease-out;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.newsletter-container {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--green-lightest);
+}
+
+a:hover {
+  color: var(--green-medium);
+}
+
+.more-customers {
+  background-color: rgba(144, 169, 85, 0.5);
+  margin-top: 5vh;
+  padding-block: 2vh;
+  padding-inline: 10vh;
+}
+
+/* Media Queries for Responsiveness */
+
+@media (width <= 768px){
+  .more-customers {
+    padding-block: 2vh;
+    padding-inline: 3vh;
+  }
+}
+@media (max-width: 1200px) {
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text h2 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .hero-text p {
+    font-size: 0.8rem;
+  }
+}
+
+@keyframes slideInFromSides {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromSidesReversed {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
